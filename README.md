@@ -24,27 +24,53 @@ The platform includes the following features:
 ## Getting Started
 To get started with `grade.ai`:
 1. Clone the repository.
-2. Install the dependencies for both the front-end and back-end.
-3. Set up the database and environment variables.
-4. Run the React front-end and Flask back-end.
-5. Access the dashboard to view evaluation results.
+2. Set up the backend by following the detailed instructions below.
+3. Install the dependencies for the front-end.
+4. Set up the database and environment variables.
+5. Run the React front-end and Flask back-end.
+6. Access the dashboard to view evaluation results.
 
-## Installation
-```bash
-# Clone the repository
-git clone https://github.com/your-username/grade.ai.git
+## Backend Setup
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/grade.ai.git
+   ```
 
-# Navigate into the project directory
-cd grade.ai
+2. **Navigate into the backend directory**:
+   ```bash
+   cd grade.ai/backend
+   ```
 
-# Install front-end dependencies
-cd frontend
-npm install
+3. **Create a `.env` file**:
+   - Create a file named `.env` in the `backend` directory.
+   - Add your OpenAI API key to this file:
+     ```
+     OPENAI_API_KEY=your_openai_api_key_here
+     ```
 
-# Install back-end dependencies
-cd ../backend
-pip install -r requirements.txt
-```
+4. **Create a virtual environment**:
+   ```bash
+   python3 -m venv venv
+   ```
+
+5. **Activate the virtual environment**:
+   ```bash
+   source venv/bin/activate
+   ```
+
+6. **Install the backend dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+7. **Run the backend server**:
+   ```bash
+   python app.py
+   ```
+
+8. **Testing with Postman**:
+   - Use Postman to send requests to the backend and test the API.
+   - Configure and use sample data and responses to see how the system works.
 
 ## Usage
 1. Start the front-end server:
@@ -53,13 +79,7 @@ pip install -r requirements.txt
    npm start
    ```
 
-2. Start the back-end server:
-   ```bash
-   cd backend
-   python app.py
-   ```
-
-3. Access the application at `http://localhost:3000`.
+2. Access the application at `http://localhost:3000`.
 
 ## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
