@@ -4,7 +4,6 @@
 **grade.ai** is an AI-assisted evaluator tool designed to simplify the grading process for educators. This tool leverages advanced AI models to validate student answers, making the assessment process more efficient and accurate. Teachers can use this platform to upload question papers, schema, and relevant batch information. Once student answer PDFs are uploaded, they are converted into text, evaluated against the schema, and presented in a dashboard with detailed scores and analytics.
 
 ## Project Overview
-
 The platform includes the following features:
 - **Teacher Interface**: Allows educators to add question papers, grading schema, and batch-specific information.
 - **Student Answer Evaluation**: Automatically converts uploaded PDFs of student answers into text for AI-based evaluation.

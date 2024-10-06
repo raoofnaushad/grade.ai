@@ -1,0 +1,135 @@
+{
+    "message": [
+        {
+            "questions": [
+                {
+                    "current_score": 10,
+                    "max_score": 10,
+                    "question_id": 1,
+                    "question_text": "What is the difference between supervised and unsupervised learning?",
+                    "reason": [
+                        {
+                            "awarded_points": 3,
+                            "criterion": "Defines supervised learning correctly",
+                            "details": "The student correctly defined supervised learning as using labeled data to train a model, which is accurate and matches the standard definition.",
+                            "met": true
+                        },
+                        {
+                            "awarded_points": 3,
+                            "criterion": "Defines unsupervised learning correctly",
+                            "details": "The student correctly defined unsupervised learning as dealing with unlabeled data and used for finding hidden patterns. This aligns well with the conventional understanding of unsupervised learning.",
+                            "met": true
+                        },
+                        {
+                            "awarded_points": 2,
+                            "criterion": "Highlights the key difference between the two approaches",
+                            "details": "The student concisely highlighted the key difference, stating that supervised learning involves predefined labels while unsupervised does not, which accurately captures the fundamental distinction.",
+                            "met": true
+                        },
+                        {
+                            "awarded_points": 2,
+                            "criterion": "Provides a suitable real-world example for each",
+                            "details": "The student provided appropriate examples: predicting house prices for supervised learning and grouping customers for unsupervised learning, both of which are suitable and commonly used illustrations.",
+                            "met": true
+                        }
+                    ],
+                    "student_answer": "Supervised learning involves using labeled data to train a model. For example, predicting house prices using a dataset with features and target prices. Unsupervised learning, on the other hand, deals with unlabeled data and is used to find hidden patterns, such as grouping customers based on their shopping behaviors. The key difference is that supervised learning has predefined labels, while unsupervised learning does not."
+                },
+                {
+                    "current_score": 10,
+                    "max_score": 10,
+                    "question_id": 2,
+                    "question_text": "Explain the purpose of a primary key in a relational database.",
+                    "reason": [
+                        {
+                            "awarded_points": 4,
+                            "criterion": "Defines a primary key and its purpose",
+                            "details": "The student correctly defines a primary key as a column that uniquely identifies each row in a table and mentions its purpose in ensuring unique identification, which fully satisfies this criterion.",
+                            "met": true
+                        },
+                        {
+                            "awarded_points": 3,
+                            "criterion": "Explains the concept of uniqueness and non-null constraints",
+                            "details": "The student's answer implicitly covers the concept of uniqueness by stating that no two rows can have the same key. Although the non-null constraint is not explicitly mentioned, the explanation implies it as a necessary property of a primary key.",
+                            "met": true
+                        },
+                        {
+                            "awarded_points": 3,
+                            "criterion": "Gives an example of using a primary key in a database",
+                            "details": "The example of using `StudentID` as a primary key in a `Students` table is appropriate and illustrative, satisfying this criterion.",
+                            "met": true
+                        }
+                    ],
+                    "student_answer": "A primary key is a column that uniquely identifies each row in a table. It ensures that no two rows can have the same key. For example, a `StudentID` column can be the primary key in a `Students` table."
+                }
+            ],
+            "student_id": "student_001"
+        },
+        {
+            "questions": [
+                {
+                    "current_score": 4,
+                    "max_score": 10,
+                    "question_id": 1,
+                    "question_text": "What is the difference between supervised and unsupervised learning?",
+                    "reason": [
+                        {
+                            "awarded_points": 2,
+                            "criterion": "Defines supervised learning correctly",
+                            "details": "The student correctly notes that supervised learning involves labeled data, which is accurate. However, the explanation lacks detail, as it doesn't mention the use of labeled data to train models to predict outcomes or classify new data.",
+                            "met": false
+                        },
+                        {
+                            "awarded_points": 2,
+                            "criterion": "Defines unsupervised learning correctly",
+                            "details": "The student correctly states that unsupervised learning involves data without labels. However, the explanation is incomplete because it does not elaborate on the methods used to find patterns or groupings within the data.",
+                            "met": false
+                        },
+                        {
+                            "awarded_points": 2,
+                            "criterion": "Highlights the key difference between the two approaches",
+                            "details": "The student correctly identifies the key difference between supervised and unsupervised learning, namely the presence or absence of labels in the data.",
+                            "met": true
+                        },
+                        {
+                            "awarded_points": 0,
+                            "criterion": "Provides a suitable real-world example for each",
+                            "details": "The student does not provide any real-world examples for supervised or unsupervised learning.",
+                            "met": false
+                        }
+                    ],
+                    "student_answer": "Supervised learning means that data has some labels and we can just use them. Unsupervised learning has no labels. That’s it."
+                },
+                {
+                    "current_score": 2,
+                    "max_score": 10,
+                    "question_id": 2,
+                    "question_text": "Explain the purpose of a primary key in a relational database.",
+                    "reason": [
+                        {
+                            "awarded_points": 1,
+                            "criterion": "Defines a primary key and its purpose",
+                            "details": "The student mentions that a primary key is 'a key in a database' and that it helps identify data. However, the answer lacks detail on the exact purpose of a primary key, such as ensuring each record in a table is unique.",
+                            "met": false
+                        },
+                        {
+                            "awarded_points": 1,
+                            "criterion": "Explains the concept of uniqueness and non-null constraints",
+                            "details": "The student's answer does not explicitly address the uniqueness and non-null constraints inherent in a primary key. Mentioning that it helps identify data slightly hints at uniqueness but is insufficient.",
+                            "met": false
+                        },
+                        {
+                            "awarded_points": 0,
+                            "criterion": "Gives an example of using a primary key in a database",
+                            "details": "The student does not provide any example of a primary key being used in a database.",
+                            "met": false
+                        }
+                    ],
+                    "student_answer": "A primary key is a key in a database. It helps identify data but I’m not sure how it works exactly."
+                }
+            ],
+            "student_id": "student_002"
+        }
+    ],
+    "status": true
+}
