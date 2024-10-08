@@ -1,0 +1,86 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question_text": "What is the difference between supervised and unsupervised learning?",
+      "max_score": 10
+    },
+    {
+      "id": 2,
+      "question_text": "Explain the purpose of a primary key in a relational database.",
+      "max_score": 10
+    }
+  ],
+  "rubrics": [
+    {
+      "id": 1,
+      "question_id": 1,
+      "criteria": "Defines supervised learning correctly",
+      "points": 3
+    },
+    {
+      "id": 2,
+      "question_id": 1,
+      "criteria": "Defines unsupervised learning correctly",
+      "points": 3
+    },
+    {
+      "id": 3,
+      "question_id": 1,
+      "criteria": "Highlights the key difference between the two approaches",
+      "points": 2
+    },
+    {
+      "id": 4,
+      "question_id": 1,
+      "criteria": "Provides a suitable real-world example for each",
+      "points": 2
+    },
+    {
+      "id": 5,
+      "question_id": 2,
+      "criteria": "Defines a primary key and its purpose",
+      "points": 4
+    },
+    {
+      "id": 6,
+      "question_id": 2,
+      "criteria": "Explains the concept of uniqueness and non-null constraints",
+      "points": 3
+    },
+    {
+      "id": 7,
+      "question_id": 2,
+      "criteria": "Gives an example of using a primary key in a database",
+      "points": 3
+    }
+  ],
+  "answers": [
+    {
+      "student_id": "student_001",
+      "answers": [
+        {
+          "question_id": 1,
+          "response_text": "Supervised learning involves using labeled data to train a model. For example, predicting house prices using a dataset with features and target prices. Unsupervised learning, on the other hand, deals with unlabeled data and is used to find hidden patterns, such as grouping customers based on their shopping behaviors. The key difference is that supervised learning has predefined labels, while unsupervised learning does not."
+        },
+        {
+          "question_id": 2,
+          "response_text": "A primary key is a column that uniquely identifies each row in a table. It ensures that no two rows can have the same key. For example, a `StudentID` column can be the primary key in a `Students` table."
+        }
+      ]
+    },
+    {
+      "student_id": "student_002",
+      "answers": [
+        {
+          "question_id": 1,
+          "response_text": "Supervised learning means that data has some labels and we can just use them. Unsupervised learning has no labels. That’s it."
+        },
+        {
+          "question_id": 2,
+          "response_text": "A primary key is a key in a database. It helps identify data but I’m not sure how it works exactly."
+        }
+      ]
+    }
+  ]
+}
